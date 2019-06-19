@@ -33,32 +33,44 @@
 <div class="position-relative overflow-hidden p-3 p-md-5 text-center bg-light slide-principal">
     <div class="p-lg-5 mx-auto">
         <h1 class="display-4 font-weight-normal">FRAY BENTOS<span>TOUR</span></h1>
-        <a class="btn btn-primary btn-lg" href="#">Reservar</a>
     </div>
 </div>
-<div class="container" id="reserva">
+<div class="container" >
     <div class="row">
         <div class="col-md-12">
-            <form class="contenedor-reserva">
+            <form class="contenedor-reserva" id="reserva">
+                <h3>Reserve acá su visita</h3>
                 <div class="form-row">
-                    <div class="form-group col-md-3">
-                        <div class="input-group date" data-provide="datepicker">
-                            <input type="text" class="form-control" placeholder="Seleccione una fecha">
+                    <div class="form-group col-2">
+                        <label>Fecha</label>
+                        <div class="date" data-provide="datepicker">
+                            <input type="text" class="form-control" placeholder="Fecha">
                             <div class="input-group-addon">
                                 <span class="glyphicon glyphicon-th"></span>
                             </div>
                         </div>
                     </div>
-                    <div class="form-group col-md-2">
-                        <input type="text" class="form-control" placeholder="Adultos">
+                    <div class="form-group col-2">
+                        <label>Adultos</label>
+                        <input type="number" class="form-control" placeholder="Adultos">
                     </div>
-                    <div class="form-group col-md-2">
-                        <input type="text" class="form-control" placeholder="Niños">
+                    <div class="form-group col-2">
+                        <label>Niños</label>
+                        <input type="number" class="form-control" placeholder="Niños">
                     </div>
-                    <div class="form-group col-md-2">
-                        <input type="text" class="form-control" placeholder="Jubilados">
+                    <div class="form-group col-2">
+                        <label>Jubilados</label>
+                        <input type="number" class="form-control" placeholder="Jubilados">
                     </div>
-                    <div class="form-group col-md-2">
+                    <div class="form-group col-2">
+                        <label>Horarios</label>
+                        <select class="form-control">
+                            <option selected>Horarios</option>
+                            <option value="1">Matutino</option>
+                            <option value="2">Despertino</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-2 order-2">
                         <button type="submit" class="btn btn-primary">Reserva</button>
                     </div>
                 </div>
