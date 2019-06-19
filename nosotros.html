@@ -11,10 +11,9 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    
+
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/datepicker.css" rel="stylesheet">
 </head>
 <body>
 <nav class="site-header sticky-top">
@@ -30,39 +29,31 @@
     </div>
 </nav>
 
-<div class="position-relative overflow-hidden p-3 p-md-5 text-center bg-light slide-principal">
-    <div class="p-lg-5 mx-auto">
-        <h1 class="display-4 font-weight-normal">FRAY BENTOS<span>TOUR</span></h1>
-        <a class="btn btn-primary btn-lg" href="#">Reservar</a>
-    </div>
-</div>
-<div class="container" id="reserva">
+<div class="slider-interno tour"></div>
+
+<div class="container py-5">
     <div class="row">
-        <div class="col-md-12">
-            <form class="contenedor-reserva">
-                <div class="form-row">
-                    <div class="form-group col-md-3">
-                        <div class="input-group date" data-provide="datepicker">
-                            <input type="text" class="form-control" placeholder="Seleccione una fecha">
-                            <div class="input-group-addon">
-                                <span class="glyphicon glyphicon-th"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group col-md-2">
-                        <input type="text" class="form-control" placeholder="Adultos">
-                    </div>
-                    <div class="form-group col-md-2">
-                        <input type="text" class="form-control" placeholder="Niños">
-                    </div>
-                    <div class="form-group col-md-2">
-                        <input type="text" class="form-control" placeholder="Jubilados">
-                    </div>
-                    <div class="form-group col-md-2">
-                        <button type="submit" class="btn btn-primary">Reserva</button>
-                    </div>
-                </div>
-            </form>
+        <div class="col-md-8 mx-auto">
+            <h2 class="titulo">Nosotros</span></h2>
+            <p class="parrafo-estilo-1">
+                Somos una empresa joven que busca poner al alcance de todos los interesados las riquezas de Fray bentos, su historia
+                industrial, su cultura, y su pasado tan presente junto al Río uruguay
+            </p>
+
+            <img class="img-barco" src="img/images/barco.jpg" alt="">
+            
+            <h2 class="titulo">Misión</span></h2>
+            <p class="parrafo-estilo-1">
+                Ser una actividad de esparcimiento con un enfoque histórico y cultural, cuyo crecimiento sostenido acompañe al
+                desarrollo de Fray Bentos como destino turístico, a través de una experiencia completa en cuanto a la información,
+                durabilidad, contenido y propuesta del tour.
+            </p>
+            
+            <h2 class="titulo">Visión</span></h2>
+            <p class="parrafo-estilo-1">
+                Ser considerados una de las principales atracciones de la región Corredor de los Pájaros Pintados contribuyendo así a su
+                desarrollo. Fomentar el turismo dentro de la localidad potenciando los atributos que posee la ciudad.
+            </p>
         </div>
     </div>
 </div>
@@ -92,12 +83,6 @@
         </div>
     </div>
 </div>
-<div class="map py-5">
-    <h2 class="titulo">Recorrido</h2>
-    <div class="content-map">
-        <iframe class="mapa" src="https://www.google.com/maps/d/embed?mid=1FuVUj8VOCDHLH2VyUXH3EpuNsMF_8AIM"></iframe>
-    </div>
-</div>
 
 <footer class="container py-5">
     <div class="row">
@@ -125,6 +110,5 @@
 </footer>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/datepicker.js"></script>
 </body>
 </html>

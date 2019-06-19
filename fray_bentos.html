@@ -11,10 +11,9 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    
+
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/datepicker.css" rel="stylesheet">
 </head>
 <body>
 <nav class="site-header sticky-top">
@@ -30,39 +29,69 @@
     </div>
 </nav>
 
-<div class="position-relative overflow-hidden p-3 p-md-5 text-center bg-light slide-principal">
-    <div class="p-lg-5 mx-auto">
-        <h1 class="display-4 font-weight-normal">FRAY BENTOS<span>TOUR</span></h1>
-        <a class="btn btn-primary btn-lg" href="#">Reservar</a>
-    </div>
-</div>
-<div class="container" id="reserva">
+<div class="slider-interno tour"></div>
+
+<div class="container py-5">
     <div class="row">
         <div class="col-md-12">
-            <form class="contenedor-reserva">
-                <div class="form-row">
-                    <div class="form-group col-md-3">
-                        <div class="input-group date" data-provide="datepicker">
-                            <input type="text" class="form-control" placeholder="Seleccione una fecha">
-                            <div class="input-group-addon">
-                                <span class="glyphicon glyphicon-th"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group col-md-2">
-                        <input type="text" class="form-control" placeholder="Adultos">
-                    </div>
-                    <div class="form-group col-md-2">
-                        <input type="text" class="form-control" placeholder="Niños">
-                    </div>
-                    <div class="form-group col-md-2">
-                        <input type="text" class="form-control" placeholder="Jubilados">
-                    </div>
-                    <div class="form-group col-md-2">
-                        <button type="submit" class="btn btn-primary">Reserva</button>
-                    </div>
+            <div class="content-media">
+                <div class="img">
+                    <figure>
+                        <img src="img/images/1.jpg" alt="">
+                    </figure>
                 </div>
-            </form>
+                <div class="text">
+                    <p>
+                        Situada en las márgenes del río Uruguay, la capital del departamento de Río Negro ofrece diversos atractivos históricos
+                        y naturales al visitante, se encuentra a 309 km de Montevideo, 210 km de Colonia del Sacramento, 34 km, 209 km de Buenos
+                        Aires y 46 km de Gualeguaychú. Conocido por su balneario Las Cañas, es una de las opciones dentro de la región de
+                        Pájaros Pintados, que suma a su rico paisaje natural el Ex Anglo, Patrimonio Histórico Cultural de la Humanidad por la
+                        UNESCO, junto a otros atractivos culturales e históricos de menor porte.
+                    </p>
+                </div>
+            </div>
+
+            <div class="content-media">
+                <div class="img">
+                    <figure>
+                        <img src="img/images/1.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="text">
+                    <p>
+                        Actualmente Fray Bentos, a través del puente Gral. San Martín es el segundo control migratorio por el que ingresan más
+                        turistas al año, luego de Colonia; en este se observa un crecimiento constante que resulta en 42,6 % en el acumulado
+                        quinquenal.
+                    </p>
+                </div>
+            </div>
+
+            <div class="content-media">
+                <div class="img">
+                    <figure>
+                        <img src="img/images/1.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="text">
+                    <p>
+                        Dentro del Paisaje Cultural Industrial Fray Bentos, se encuentra el frigorífico Anglo que en su época de auge fue
+                        conocido como "la cocina del mundo". Su fama a nivel mundial se extendió por haber destinado buena parte de su
+                        producción de carne a la fabricación de corned beef, alimento de miles de soldados durante las principales guerras del
+                        siglo XX. Otros lugares de interés de Fray Bentos son: La Rambla, el Museo Luis Solari, la Plaza Hargain, el Teatro
+                        Young, el Parque Roosevelt y el Teatro de Verano. La ruta panorámica desde Barrio Anglo hasta el balneario Las Cañas, el
+                        mirador del Puente San Martín; Ecoturismo “La Chacra” y la planta industrial de UPM, que puede visitarse mediante previa
+                        coordinación.
+                    </p>
+                </div>
+            </div>
+            
+            <h2 class="titulo">Duración<span>6 Horas</span></h2>
+        </div>
+        <div class="col-md-12">
+            <h2 class="titulo">Recorrido</h2>
+            <div class="content-map">
+                <iframe class="mapa" src="https://www.google.com/maps/d/embed?mid=1FuVUj8VOCDHLH2VyUXH3EpuNsMF_8AIM"></iframe>
+            </div>
         </div>
     </div>
 </div>
@@ -92,12 +121,6 @@
         </div>
     </div>
 </div>
-<div class="map py-5">
-    <h2 class="titulo">Recorrido</h2>
-    <div class="content-map">
-        <iframe class="mapa" src="https://www.google.com/maps/d/embed?mid=1FuVUj8VOCDHLH2VyUXH3EpuNsMF_8AIM"></iframe>
-    </div>
-</div>
 
 <footer class="container py-5">
     <div class="row">
@@ -125,6 +148,5 @@
 </footer>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/datepicker.js"></script>
 </body>
 </html>
